@@ -1,3 +1,5 @@
+import Sortable from 'sortablejs';
+// const Sortable = require('sortablejs'); //Uncaught ReferenceError: require is not defined at test.js:2:18
 const trElements = document.getElementById('sortable-list');
 $(document).ready(function() {
   const sortable = new Sortable(document.getElementById('sortable-list'), {
